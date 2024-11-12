@@ -90,12 +90,12 @@ public class Punishment {
 
         if (this.reason != null) {
             punishSuccess += plugin.getLocale().getMessage("event.punish.reason")
-                    .processPlaceholder("reason", this.reason).getMessage();
+                    .processPlaceholder("reason", this.reason).toText();
         }
 
         if (this.duration != -1 && this.duration != 0) {
             punishSuccess += plugin.getLocale().getMessage("event.punish.theirduration")
-                    .processPlaceholder("duration", TimeUtils.makeReadable(this.duration)).getMessage();
+                    .processPlaceholder("duration", TimeUtils.makeReadable(this.duration)).toText();
         }
 
         punisher.sendMessage(punishSuccess + TextUtils.formatText("&7."));
