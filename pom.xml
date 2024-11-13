@@ -6,7 +6,7 @@
 
     <groupId>com.craftaro</groupId>
     <artifactId>UltimateModeration</artifactId>
-    <version>3.3.0</version>
+    <version>3.4.0</version>
 
     <name>UltimateModeration</name>
     <description>Take complete control over your server with punishment templates via a simplified yet powerful moderation system</description>
@@ -128,7 +128,7 @@
         <dependency>
             <groupId>com.craftaro</groupId>
             <artifactId>CraftaroCore</artifactId>
-            <version>3.5.0-SNAPSHOT</version>
+            <version>3.6.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
 
