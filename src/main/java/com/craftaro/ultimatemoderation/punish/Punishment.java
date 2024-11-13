@@ -122,12 +122,12 @@ public class Punishment {
 
         if (this.reason != null) {
             punishSuccess += plugin.getLocale().getMessage("event.punish.reason")
-                    .processPlaceholder("reason", this.reason).getMessage();
+                    .processPlaceholder("reason", this.reason).toText();
         }
 
         if (this.duration != -1) {
             punishSuccess += plugin.getLocale().getMessage("event.punish.yourduration")
-                    .processPlaceholder("duration", TimeUtils.makeReadable(this.duration)).getMessage();
+                    .processPlaceholder("duration", TimeUtils.makeReadable(this.duration)).toText();
         }
 
         victim.sendMessage(punishSuccess + TextUtils.formatText("&7."));

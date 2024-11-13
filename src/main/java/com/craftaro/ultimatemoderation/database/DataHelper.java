@@ -223,12 +223,12 @@ public class DataHelper {
 
         if (punishment.getReason() != null) {
             punishSuccess += plugin.getLocale().getMessage("event.punish.reason")
-                    .processPlaceholder("reason", punishment.getReason()).getMessage();
+                    .processPlaceholder("reason", punishment.getReason()).toText();
         }
 
         if (punishment.getDuration() != -1) {
             punishSuccess += plugin.getLocale().getMessage("event.punish.yourduration")
-                    .processPlaceholder("duration", TimeUtils.makeReadable(punishment.getDuration())).getMessage();
+                    .processPlaceholder("duration", TimeUtils.makeReadable(punishment.getDuration())).toText();
         }
 
         victim.sendMessage(punishSuccess + TextUtils.formatText("&7."));

@@ -43,8 +43,8 @@ public class PlayerGui extends Gui {
 
         setItem(13, GuiUtils.createButtonItem(head, TextUtils.formatText("&7&l" + toModerate.getName()),
                 TextUtils.formatText(toModerate.isOnline() ? "&a"
-                        + plugin.getLocale().getMessage("gui.players.online.online").getMessage()
-                        : "&c" + plugin.getLocale().getMessage("gui.players.online.offline").getMessage())));
+                        + plugin.getLocale().getMessage("gui.players.online.online").toText()
+                        : "&c" + plugin.getLocale().getMessage("gui.players.online.offline").toText())));
 
         setButton(8, GuiUtils.createButtonItem(XMaterial.OAK_DOOR,
                         plugin.getLocale().getMessage("gui.general.back").getMessage()),
