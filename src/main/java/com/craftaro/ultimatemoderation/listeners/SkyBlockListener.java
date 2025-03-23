@@ -1,6 +1,6 @@
 package com.craftaro.ultimatemoderation.listeners;
 
-import com.songoda.skyblock.api.event.player.PlayerIslandChatEvent;
+import com.craftaro.skyblock.api.event.player.PlayerIslandChatEvent;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
