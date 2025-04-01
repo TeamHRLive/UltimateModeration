@@ -33,11 +33,11 @@ create a thread over on [our Discord server][Discord invite].
 
 
 [Plugin page]: https://songoda.com/product/15
-[Plugin wiki]: https://songoda.notion.site/UltimateModeration-5864be55f762467a8accedc9368a53a2
+[Plugin wiki]: https://wiki.songoda.com/UltimateModeration-1130f10897028135b339e115ba056ed0
 [Discord invite]: https://discord.gg/7TXM8xr2Ng
 
 [Discord shield]: https://img.shields.io/discord/1214289374506917889?color=5865F2&label=Discord&logo=discord&logoColor=5865F2
-[Latest version shield]: https://img.shields.io/badge/dynamic/xml?style=flat&color=blue&logo=github&logoColor=white&label=Latest&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcraftaro%2FUltimateModeration%2Fmaster%2Fpom.xml&query=%2F*%5Blocal-name()%3D'project'%5D%2F*%5Blocal-name()%3D'version'%5D
+[Latest version shield]: https://img.shields.io/badge/dynamic/xml?style=flat&color=blue&logo=github&logoColor=white&label=Latest&url=https%3A%2F%2Fraw.githubusercontent.com%2FSongoda-Plugins%2FUltimateModeration%2Fmaster%2Fpom.xml&query=%2F*%5Blocal-name()%3D'project'%5D%2F*%5Blocal-name()%3D'version'%5D
 
 [bStats page]: https://bstats.org/plugin/bukkit/UltimateModeration/4346
 [bStats shield]: https://img.shields.io/bstats/servers/4346?label=Servers
