@@ -3,12 +3,12 @@ description: ${project.description}
 version: ${project.version}
 api-version: 1.13
 
-main: com.craftaro.ultimatemoderation.UltimateModeration
+main: com.songoda.ultimatemoderation.UltimateModeration
 softdepend:
   - Vault
   - FabledSkyBlock
 
-author: Craftaro
+author: Songoda
 website: ${project.url}
 
 commands:
